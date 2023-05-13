@@ -23,7 +23,8 @@ public class PlayerController : MonoBehaviour
       playerRb = GetComponent<Rigidbody>();
       animator = GetComponent<Animator>();
       Physics.gravity *= gravityModifier;
-   }
+      isRunning = true;
+    }
    private void FixedUpdate()
    {
       if (isRunning && isOnGround)
@@ -36,10 +37,7 @@ public class PlayerController : MonoBehaviour
    {
       changeAxisX();
       CheckKeyboard();
-      if (Input.GetKeyDown(KeyCode.G))
-      {
-         isRunning = true; 
-      }
+   
 
       if (playerRb.velocity.z > 0.1f)
       {
