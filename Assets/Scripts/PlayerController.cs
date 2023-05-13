@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
       playerRb = GetComponent<Rigidbody>();
       animator = GetComponent<Animator>();
       Physics.gravity *= gravityModifier;
+      isRunning = true; 
    }
    private void FixedUpdate()
    {
@@ -36,10 +37,6 @@ public class PlayerController : MonoBehaviour
    {
       changeAxisX();
       CheckKeyboard();
-      if (Input.GetKeyDown(KeyCode.G))
-      {
-         isRunning = true; 
-      }
 
       if (playerRb.velocity.z > 0.1f)
       {
@@ -121,6 +118,7 @@ public class PlayerController : MonoBehaviour
          {
             Jump(-6);
          }
+         /*
          if (Input.GetKeyDown(KeyCode.F))
          {
             Jump(-8);
@@ -129,6 +127,7 @@ public class PlayerController : MonoBehaviour
          {
             Jump(-10);
          }
+         */
       }
       
    }
