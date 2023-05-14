@@ -1713,7 +1713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '''S'' corresponds to the color orange
+  m_text: 'Use ''S'' for YELLOW color!
 
 '
   m_isRightToLeft: 0
@@ -1725,7 +1725,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278232575
-  m_fontColor: {r: 1, g: 0.64705884, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2547,7 +2547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '''D'' corresponds to the color green'
+  m_text: Use 'D' for GREEN color!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2800,7 +2800,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '''Space Bar'' spacebar is a middle jump'
+  m_text: Use 'Space Bar' for middle jump!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3513,7 +3513,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '''A'' corresponds to the color yellow
+  m_text: 'Use ''A'' for ORANGE color!
 
 '
   m_isRightToLeft: 0
@@ -3525,7 +3525,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278255615
-  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 0.64705884, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4231,22 +4231,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'All you need to play are three keys: ''A'', ''S'', and ''D''.
+  m_text: 'To play use the keys: ''A'', ''S'', and ''D''.
 
 
 
-    Each
-    key corresponds to a different color platform:
+    Each key match to
+    a different color platform:
 
 
 
 
 
 
-    As you progress through
-    the game, you will find platforms with different colors at the end of each section.
-    Your goal is to press the key that match to the color of the next platform right
-    when you reach it.'
+    As you progress through the game, you will
+    find platforms with different colors at the end of each section. Your goal is
+    to press the key that matches to the color of the next platform right when you
+    reach it.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
