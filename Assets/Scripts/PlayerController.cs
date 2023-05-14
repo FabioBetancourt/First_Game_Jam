@@ -113,11 +113,11 @@ public class PlayerController : MonoBehaviour
 
          if (Input.GetKeyDown(KeyCode.S))
          {
-            Jump(-4);
+            Jump(0);
          }
          if (Input.GetKeyDown(KeyCode.D))
          {
-            Jump(-6);
+            Jump(2);
          }
          if (Input.GetKeyDown(KeyCode.F))
          {
