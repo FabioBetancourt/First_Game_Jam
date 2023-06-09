@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49913
+61582
 Successfully changed project path to: /Users/santiak/Unity/First_Game_Jam
 /Users/santiak/Unity/First_Game_Jam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/santiak/Unity/First_Game_Jam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4579503616] Host "[IP] 192.168.5.107 [Port] 0 [Flags] 2 [Guid] 3418299832 [EditorId] 3418299832 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-santiak.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4650704384] Host "[IP] 192.168.0.24 [Port] 0 [Flags] 2 [Guid] 1275751359 [EditorId] 1275751359 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-santiak.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4579503616] Host "[IP] 192.168.5.107 [Port] 0 [Flags] 2 [Guid] 3418299832 [EditorId] 3418299832 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-santiak.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4650704384] Host "[IP] 192.168.0.24 [Port] 0 [Flags] 2 [Guid] 1275751359 [EditorId] 1275751359 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-santiak.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 131.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 133.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -74,90 +74,90 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56641
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56246
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001449 seconds.
+Registered in 0.001424 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 139.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 125.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
+- Completed reload, in  0.928 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1034ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (774ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (699ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (166ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (471ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (140ms)
+				RefreshPlugins (125ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004307 seconds.
+Registered in 0.002979 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/santiak/Unity/First_Game_Jam/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/santiak/Unity/First_Game_Jam/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 139.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 127.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.004 seconds
+- Completed reload, in  1.914 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2006ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1915ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
+			ReleaseScriptingObjects (1ms)
 			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1680ms)
-			LoadAssemblies (106ms)
+		EndReloadAssembly (1586ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (494ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (908ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (884ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (140ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (517ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5622 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (0.8 MB). Loaded Objects now: 6078.
-Memory consumption went from 223.8 MB to 223.0 MB.
-Total: 7.599819 ms (FindLiveObjects: 0.881900 ms CreateObjectMapping: 1.161283 ms MarkObjects: 4.956669 ms  DeleteObjects: 0.598625 ms)
+Memory consumption went from 223.6 MB to 222.8 MB.
+Total: 6.272692 ms (FindLiveObjects: 0.607450 ms CreateObjectMapping: 0.474907 ms MarkObjects: 4.514394 ms  DeleteObjects: 0.674764 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,7 +171,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 12035.107069 seconds.
+  Time since last request: 57561.487505 seconds.
   path: Assets/Skyboxes/Cosmic.mat
   artifactKey: Guid(b59d1da3e324d4eb69ef1670f66c5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes/Cosmic.mat using Guid(b59d1da3e324d4eb69ef1670f66c5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab72d8437f467444a40e3766ebf7b834') in 1.952507 seconds 
+Start importing Assets/Skyboxes/Cosmic.mat using Guid(b59d1da3e324d4eb69ef1670f66c5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255117e46da992df1dc6fcf48e154f65') in 1.698418 seconds 
