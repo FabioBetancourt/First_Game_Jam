@@ -77,10 +77,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dh (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4365540803031696660, guid: b8f3b44cd6abb474bba9582d4c77270e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365540803031696660, guid: b8f3b44cd6abb474bba9582d4c77270e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365540803031696660, guid: b8f3b44cd6abb474bba9582d4c77270e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.514
+      objectReference: {fileID: 0}
     - target: {fileID: 7333681071642911674, guid: b8f3b44cd6abb474bba9582d4c77270e,
         type: 3}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680792810300473541, guid: b8f3b44cd6abb474bba9582d4c77270e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.09
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8f3b44cd6abb474bba9582d4c77270e, type: 3}

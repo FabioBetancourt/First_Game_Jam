@@ -27,11 +27,12 @@ public class PlayerController : MonoBehaviour
     }
    private void FixedUpdate()
    {
-      if (isRunning && isOnGround)
+      if (isRunning)
       {
          playerRb.velocity = new Vector3(playerRb.velocity.x, playerRb.velocity.y, speed);
       }
    }
+
    
    private void Update()
    {
@@ -119,6 +120,7 @@ public class PlayerController : MonoBehaviour
          {
             Jump(2);
          }
+         /*
          if (Input.GetKeyDown(KeyCode.F))
          {
             Jump(-8);
@@ -127,6 +129,7 @@ public class PlayerController : MonoBehaviour
          {
             Jump(-10);
          }
+         */
       }
       
    }
